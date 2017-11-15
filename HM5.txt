@@ -1,0 +1,12 @@
+package taj;
+
+public class replace {
+    //this code replaces every i with ! and every s with $ in Mississippi
+    public static void main(String[] args) {
+       String a = "Mississippi";
+       String b = a.replace("i","!");
+       String c = b.replace("s","$");
+        System.out.println("actual word : "+a);
+        System.out.println("new word : "+c);
+    }
+}

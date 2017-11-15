@@ -1,0 +1,29 @@
+package taj;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author TajMSabra
+ */
+public class Maximum {
+    //this code gets the maximum number of a set of numbers that a user enters
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter numbers to get the Maximum or \"-1\" to end");
+        int max = -1;
+        while (true) {
+            int m = scanner.nextInt();
+            if (m == -1) {
+                break;
+            } else if (m > max) {
+                max = m;
+            }
+        }
+        if (max == -1) {
+            System.out.println("You have Entered an Error number.");
+        } else {
+            System.out.println("Maximum is : " + max);
+        }
+    }
+}

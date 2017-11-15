@@ -1,0 +1,30 @@
+package taj;
+
+import java.util.Scanner;
+/**
+ *
+ * @author TajMSabra
+ */
+public class secound {
+ //this code gives the sum and the average of 2 integers that a user enters
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter integers : ");
+        double sum;
+        double avarage;
+        while (true) {
+            int m = s.nextInt();
+            if (m == -1) {
+                break;
+            } else if (s.hasNextInt()) {
+                int e = s.nextInt();
+                sum = e + m;
+                avarage = (e + m) / 2;
+                System.out.println("Sum is : " + sum);
+                System.out.println("Avarage is : " + avarage);
+               
+            }
+
+        }
+    }
+}
