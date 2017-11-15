@@ -1,7 +1,10 @@
 package taj;
 
 import java.util.Scanner;
-
+/**
+ *
+ * @author TajMSabra
+ */
 public class first {
 
     public static void main(String[] args) {
